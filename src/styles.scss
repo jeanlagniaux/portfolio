@@ -1,1 +1,56 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+/* Color for the site */
+
+$color-white: #F2F2F2;
+$color-white-darker: #A6A6A6;
+$color-grey: #737373;
+$color-grey-darker: #404040;
+$color-dark: #0D0D0D;
+$color-pop-blue: #242CBF;
+$color-pop-red: #D96C6C;
+
+/* base style */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    font-family: Ubuntu, sans-serif;
+}
+
+body {
+    list-style: none;
+    background-color: #fff !important;
+}
+
+@media (min-width: 992px) {
+    .w-lg-25 {
+        width: 25% !important;
+    }
+    .w-lg-50 {
+        width: 50% !important;
+    }
+    .w-lg-75 {
+        width: 75% !important;
+    }
+    .w-lg-100 {
+        width: 100% !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .w-md-25 {
+        width: 25% !important;
+    }
+    .w-md-50 {
+        width: 50% !important;
+    }
+    .w-md-75 {
+        width: 75% !important;
+    }
+    .w-md-100 {
+        width: 100% !important;
+    }
+}
